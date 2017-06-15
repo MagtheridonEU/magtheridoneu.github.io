@@ -9,6 +9,7 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
 <table class="table">
 <tbody>
 {% for guild in site.guilds %}
+{% if guild.shortname != "lowercase-version-of-guild-name-without-spaces" %}
 <tr>
 
   <td><a href="{{ guild.website }}" target="_blank">{{ guild.name }}</a></td>
@@ -30,6 +31,7 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   </div>
   </td>
 </tr>
+{% endif %}
 {% endfor %}
 </tbody>
 </table>

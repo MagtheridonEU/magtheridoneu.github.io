@@ -4,5 +4,7 @@ title: Magtheridon EU
 
 description: An open source community website for the players on Magtheridon (EU).
 
+google_analytics: UA-81429436-1
+
 collections:
 - guilds

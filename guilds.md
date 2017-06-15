@@ -6,8 +6,21 @@ title: "Magtheridon EU - Guilds"
 
 Below is a list of some of the guilds on Magtheridon, it is not a complete list, but it could be a great place to start.
 
+<ul class="guilds">
 {% for guild in site.guilds %}
-<article class="guild">
-  <h1><a href="{{ guild.website }}">{{ guild.name }}</a></h1>
-</article>
+<li class="guild">
+  <a href="{{ guild.website }}" target="_blank">{{ guild.name }}</a>
+  
+  <a class="btn btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.name }}officers" aria-expanded="false" aria-controls="collapseExample">Officers
+  </a>
+
+<div class="collapse" id="{{ guild.name }}officers">
+  <div class="well">
+    Officers
+  </div>
+</div>
+  
+  
+</li>
 {% endfor %}
+</ul>

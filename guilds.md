@@ -22,6 +22,9 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <td colspan="2">
     <div class="well">
     Officers
+    {% for officer in guild.officers %}
+      {{ officer }}
+    {% endfor %}
   </div>
   </td>
 </tr>

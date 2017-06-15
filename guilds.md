@@ -29,4 +29,5 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   </td>
 </tr>
 {% endfor %}
+</tbody>
 </table>

@@ -1,7 +1,7 @@
 --- 
 leader: "Guild Leaders Character Name"
 name: "Guild Name"
-id: "lowercase-version-of-guild-name-without-spaces"
+shortname: "lowercase-version-of-guild-name-without-spaces"
 officers: 
   - Officer 1
   - Officer 2

@@ -18,6 +18,10 @@ raids:
   - 
     sunday: 
       - "20:00 - 23:00"
+      
+recruitement: 
+  - healers
+  - dps
 
 website: https://mf.magtheridon.eu/
 ---

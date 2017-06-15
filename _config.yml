@@ -3,3 +3,6 @@ theme: jekyll-theme-minimal
 title: Magtheridon EU
 
 description: An open source community website for the players on Magtheridon (EU).
+
+collections:
+- guilds

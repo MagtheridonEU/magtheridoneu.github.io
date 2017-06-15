@@ -11,10 +11,10 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
 <li class="guild">
   <a href="{{ guild.website }}" target="_blank">{{ guild.name }}</a>
   
-  <a class="btn btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.name }}officers" aria-expanded="false" aria-controls="collapseExample">Officers
+  <a class="btn btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.id }}officers" aria-expanded="false" aria-controls="collapseExample">Officers
   </a>
 
-<div class="collapse" id="{{ guild.name }}officers">
+<div class="collapse" id="{{ guild.id }}officers">
   <div class="well">
     Officers
   </div>

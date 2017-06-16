@@ -20,3 +20,9 @@
 .navbar-default .navbar-nav>li>a {
   color: $cloud
 }
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: $fel-green-light;
+}
+
+

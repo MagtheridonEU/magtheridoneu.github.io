@@ -11,13 +11,13 @@ officers:
 
 raids:
   - 
-    day: friday:
+    day: friday
     times: "20:00 - 23:00"
   - 
-    day: saturday:
+    day: saturday
     times: "20:00 - 23:00"
   - 
-    day: sunday 
+    day: sunday
     times: "20:00 - 23:00"
       
 recruitment: 

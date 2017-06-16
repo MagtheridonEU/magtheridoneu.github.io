@@ -17,7 +17,7 @@ raids:
     day3: 
       - "starttime - endtime"
       
-recruitement: 
+recruitment: 
   - healers
   - dps
   - tanks

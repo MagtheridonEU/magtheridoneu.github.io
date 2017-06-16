@@ -24,7 +24,7 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <!-- More info buttons -->
   <td>{{ guild.leader }}</td>
   <td>
-      <ul>
+      <ul class="list-group">
       {% for raidtimes in guild.raids %}
       <li>{{ raidtimes.day }}: {{ raidtimes.times }}</li>
       {% endfor %}

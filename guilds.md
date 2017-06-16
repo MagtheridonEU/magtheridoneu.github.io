@@ -23,7 +23,11 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   
   <!-- More info buttons -->
   <td></td>
-  <td></td>
+  <td>
+      {% for raid in guild.raids %}
+    <li>{{ raid }}</li>
+    {% endfor %}
+  </td>
   <td>
       <a class="btn btn-xs btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.shortname }}officers" aria-expanded="false" aria-controls="{{ guild.shortname }}officers">Officers</a>
       <a class="btn btn-xs btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.shortname }}recruitment" aria-expanded="false" aria-controls="{{ guild.shortname }}recruitment">Recruitment</a>

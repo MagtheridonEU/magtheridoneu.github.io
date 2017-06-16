@@ -8,14 +8,14 @@ officers:
 
 raids: 
   - 
-    day1: 
-      - "starttime - endtime"
+    day: friday
+    times: "20:00 - 23:00"
   - 
-    day2: 
-      - "starttime - endtime"
+    day: saturday
+    times: "20:00 - 23:00"
   - 
-    day3: 
-      - "starttime - endtime"
+    day: sunday
+    times: "20:00 - 23:00"
       
 recruitment: 
   - healers

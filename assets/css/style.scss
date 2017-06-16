@@ -1,4 +1,6 @@
+@import "colours";
+
 body {
-    background-color: #ececec;
-    color: #313131;
+    background-color: $cloud;
+    color: $dark-grey;
 }

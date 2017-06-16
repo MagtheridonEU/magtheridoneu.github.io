@@ -39,7 +39,7 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <td colspan="4">
     <div class="well">
     <h2>Officers</h2>
-    <ul>
+    <ul class="list-group">
     {% for officer in guild.officers %}
     <li>{{ officer }}</li>
     {% endfor %}
@@ -51,7 +51,7 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <td colspan="4">
     <div class="well">
     <h2>Recruitment</h2>
-    <ul>
+    <ul class="list-group">
     {% for recruitment in guild.recruitment %}
     <li>{{ recruitment }}</li>
     {% endfor %}

@@ -9,16 +9,16 @@ officers:
   - Labobbob
   - Drakzarth
 
-raids: 
+raids:
   - 
-    friday: 
-      - "20:00 - 23:00"
+    day: friday:
+    times: "20:00 - 23:00"
   - 
-    saturday: 
-      - "20:00 - 23:00"
+    day: saturday:
+    times: "20:00 - 23:00"
   - 
-    sunday: 
-      - "20:00 - 23:00"
+    day: sunday 
+    times: "20:00 - 23:00"
       
 recruitment: 
   - healers

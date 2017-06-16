@@ -14,7 +14,7 @@ raids:
     day2: 
       - "starttime - endtime"
   - 
-    sunday: 
+    day3: 
       - "starttime - endtime"
       
 recruitement: 

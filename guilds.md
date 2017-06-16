@@ -11,8 +11,6 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <tr>
     <th>Guild</th>
     <th>Links</th>
-  </tr>
-  <tr>
     <th>Raid Times</th>
     <th>Info</th>
   </tr>
@@ -25,15 +23,13 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   
   <!-- More info buttons -->
   <td></td>
-</tr>
-<tr>
   <td></td>
   <td><a class="btn btn-xs btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.shortname }}officers" aria-expanded="false" aria-controls="{{ guild.shortname }}officers">Officers</a></td>
 </tr>
 <tr class="collapse" id="{{ guild.shortname }}officers">
   <td colspan="2">
     <div class="well">
-    Officers
+    <h2>Officers</h2>
     <ul>
     {% for officer in guild.officers %}
     <li>{{ officer }}</li>

@@ -24,7 +24,10 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <!-- More info buttons -->
   <td></td>
   <td></td>
-  <td><a class="btn btn-xs btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.shortname }}officers" aria-expanded="false" aria-controls="{{ guild.shortname }}officers">Officers</a></td>
+  <td>
+      <a class="btn btn-xs btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.shortname }}officers" aria-expanded="false" aria-controls="{{ guild.shortname }}officers">Officers</a>
+      <a class="btn btn-xs btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.shortname }}recruitment" aria-expanded="false" aria-controls="{{ guild.shortname }}recruitment">Recruitment</a>
+ </td>
 </tr>
 <tr class="collapse" id="{{ guild.shortname }}officers">
   <td colspan="4">
@@ -33,6 +36,18 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
     <ul>
     {% for officer in guild.officers %}
     <li>{{ officer }}</li>
+    {% endfor %}
+    </ul>
+  </div>
+  </td>
+</tr>
+<tr class="collapse" id="{{ guild.shortname }}recruitment">
+  <td colspan="4">
+    <div class="well">
+    <h2>Recruitment</h2>
+    <ul>
+    {% for recruitment in guild.recruitment %}
+    <li>{{ recruitment }}</li>
     {% endfor %}
     </ul>
   </div>

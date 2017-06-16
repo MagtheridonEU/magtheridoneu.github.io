@@ -10,7 +10,7 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
 <thead>
   <tr>
     <th>Guild</th>
-    <th>Links</th>
+    <th>GM</th>
     <th>Raid Times</th>
     <th>Info</th>
   </tr>
@@ -22,7 +22,7 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <td><a href="{{ guild.website }}" target="_blank">{{ guild.name }}</a></td>
   
   <!-- More info buttons -->
-  <td></td>
+  <td>{{ guild.leader }}</td>
   <td>
       <ul>
       {% for raidtimes in guild.raids %}

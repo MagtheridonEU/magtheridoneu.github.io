@@ -24,9 +24,11 @@ Below is a list of some of the guilds on Magtheridon, it is not a complete list,
   <!-- More info buttons -->
   <td></td>
   <td>
+      <ul>
       {% for days in guild.raids %}
-          {{ day }}: {{ times }}
+      <li>{{ days }}</li>
       {% endfor %}
+      </ul>
   </td>
   <td>
       <a class="btn btn-xs btn-primary pull-right" role="button" data-toggle="collapse" href="#{{ guild.shortname }}officers" aria-expanded="false" aria-controls="{{ guild.shortname }}officers">Officers</a>

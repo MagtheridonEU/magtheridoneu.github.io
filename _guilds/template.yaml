@@ -1,6 +1,7 @@
 --- 
 leader: "Guild Leaders Character Name"
 name: "Guild Name"
+faction: Alliance|Horde
 shortname: "lowercase-version-of-guild-name-without-spaces"
 officers: 
   - Officer 1

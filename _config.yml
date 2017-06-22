@@ -11,3 +11,15 @@ gems:
 
 collections:
 - guilds
+
+defaults:
+  -
+    scope:
+      path: "/_posts/" # an empty string here means all files in the project
+    values:
+      layout: "blogpost"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

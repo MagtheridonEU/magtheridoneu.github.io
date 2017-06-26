@@ -1,6 +1,7 @@
 ---
 title: ToS Realm Firsts (7/9)
 date: 21st June 2017
+excerpt: After the first nights raiding heroic ToS 7 out of the 9 bosses have been killed, click read more to see the list.
 ---
 
 ### Heroic

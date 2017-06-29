@@ -17,7 +17,7 @@ defaults:
     scope:
       path: "/_posts/" # an empty string here means all files in the project
     values:
-      layout: "blogpost"
+      layout: "post"
   -
     scope:
       path: "" # an empty string here means all files in the project

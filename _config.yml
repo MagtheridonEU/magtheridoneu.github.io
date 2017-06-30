@@ -10,7 +10,7 @@ gems:
   - jekyll-sitemap
 
 collections:
-- guilds
+  - guilds
 
 defaults:
   -

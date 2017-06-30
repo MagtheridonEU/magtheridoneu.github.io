@@ -1,6 +1,6 @@
 ---
-title: ToS Realm Firsts (1/9) Mythic
-date: 28th June 2017
+title: ToS Realm Firsts (3/9) Mythic
+date: 29th June 2017
 excerpt: Two more realm first kills for Noobs tbh.
 ---
 

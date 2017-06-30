@@ -1,6 +1,7 @@
 ---
 title: ToS Realm Firsts (9/9) Heroic
 date: 25th June 2017
+excerpt: Paranoin get realm first Kil'Jaeden on Heroic.
 ---
 
 ### Heroic

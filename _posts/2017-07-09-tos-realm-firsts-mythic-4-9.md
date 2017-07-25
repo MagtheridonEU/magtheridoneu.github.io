@@ -1,6 +1,6 @@
 ---
 title: ToS Realm Firsts (4/9) Mythic
-date: 29th June 2017
+date: 9th July 2017
 excerpt: Noobs tbh attain realm first kill on Sisters of the Moon Mythic.
 layout: post
 ---

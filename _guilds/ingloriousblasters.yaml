@@ -1,0 +1,27 @@
+--- 
+leader: Snipellidari
+name: "Inglorious Blasters"
+faction: Horde
+shortname: "ib"
+officers: 
+  - Snipellidari
+  - Labobbob
+  - Holyfunbags
+  - Barrowstone
+  - Onemodematx
+  - Éstiq
+
+raids:
+  - 
+    day: friday
+    times: "20:00 - 23:00"
+  - 
+    day: saturday
+    times: "20:00 - 23:00"
+      
+recruitment: 
+  - healers
+  - dps
+
+website: https://inglorious-blasters.gitlab.io
+---
